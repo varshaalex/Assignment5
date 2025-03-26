@@ -12,7 +12,6 @@
 const express = require("express");
 const path = require("path");
 const collegeData = require("./modules/collegeData");
-//const bodyParser = require("body-parser");
 const app = express();
 const expressLayouts = require("express-ejs-layouts");
 app.use(express.static("public"));
